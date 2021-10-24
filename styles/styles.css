@@ -119,6 +119,51 @@ body {
     margin-bottom: 20px;
 }
 
+.donation-heading {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 4%;
+    color: black;
+}
+
+#families-section {
+    background-color: #2eaab3;
+}
+
+.family-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.family-card {
+    background-color: #fffff0;
+    color: black;
+    margin-bottom: 3%;
+}
+
+.card-title {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.family-button {
+    margin-top: 20%;
+    background-color: #2eaab3;
+    color: #fffff0;
+}
+
+.family-button:hover {
+    margin-top: 20%;
+    background-color: #fffff0;
+    color: #2eaab3;
+}
+
+.family-heading {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 4%;
+    color: #fffff0;
+}
 
 @media (max-width : 1028px) {
     .hero-image {
