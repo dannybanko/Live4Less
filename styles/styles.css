@@ -1,0 +1,129 @@
+body {
+    background-color: #fffff0;
+}
+
+.container-fluid {
+    padding: 7% 10%;
+}
+
+.navbar-container {
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0px 18px;
+}
+
+.nav-link {
+    color: red;
+    font-size: 1.2rem;
+}
+
+/* Hero Section */
+
+#hero {
+    font-size: 1.2rem;
+    color: #757575;
+}
+
+.hero-image {
+    width: 80%;
+    position: relative;
+}
+
+.hero-heading {
+    font-size: 3rem;
+    padding-bottom: 8%;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+/* Services Section */
+
+#services {
+    background-color: #2eaab3;
+    text-align: center;
+    font-family: "Ubuntu";
+}
+
+#services h3 {
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+.service-header {
+    font-size: 3rem;
+    padding-bottom: 8%;
+    color: #fffff0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.service-logo {
+    color: #f1e3d1;
+    margin: 20px 20px 50px;
+}
+.service-logo:hover {
+    color: #fffff0;
+}
+
+#donate {
+    background-color: #fff6ea;
+    font-size: 1.2rem;
+    color: #757575;
+}
+
+.donation-img {
+    width: 80%;
+    position: relative;
+}
+
+.donate-button {
+    margin: 5% 3% 5% 0%;
+}
+
+.donate-icon {
+    padding-right: 25px;
+}
+
+.donate-header {
+    font-size: 3rem;
+    padding-bottom: 8%;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+#footer {
+    text-align: center;
+    background-color: #2eaab3;
+    color: #fffff0;
+}
+
+.footer-icon {
+    color: #fffff0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width : 1028px) {
+    .hero-image {
+        width: 50%;
+        position: relative;
+        transform: translate(50%);
+    }
+}
